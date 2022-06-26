@@ -116,7 +116,7 @@ export default function App() {
           birdBottom={birdBottom}
           birdLeft={birdLeft}
         />
-        <Obstacles
+        <Obstacles style={styles.obstacles}
           color={'green'}
           obstacleWidth={obstacleWidth}
           obstacleHeight={obstacleHeight}
@@ -124,7 +124,7 @@ export default function App() {
           gap={gap}
           obstaclesLeft={obstaclesLeft}
         />
-        <Obstacles
+        <Obstacles style={styles.obstacles}
           color={'yellow'}
           obstacleWidth={obstacleWidth}
           obstacleHeight={obstacleHeight}
@@ -141,8 +141,12 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#CEE5D0',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  obstacles: {
+    
+
+  }
 });
